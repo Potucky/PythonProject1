@@ -1,0 +1,9 @@
+# Public Restful Booker demo. The account below is published by that
+# project (admin / password123). It is not a secret. Override any value
+# with BOOKER_BASE_URL, BOOKER_TIMEOUT, BOOKER_USERNAME, or BOOKER_PASSWORD.
+# Point BOOKER_CONFIG at another file to replace this one entirely.
+base_url: https://restful-booker.herokuapp.com
+timeout_seconds: 30
+auth:
+  username: admin
+  password: password123
